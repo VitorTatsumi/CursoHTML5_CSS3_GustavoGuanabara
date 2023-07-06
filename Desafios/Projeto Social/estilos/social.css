@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Esconder a barra de rolagem da imagem da imagem no IFrame*/
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    display: block;
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+   background-color: red;
+}
