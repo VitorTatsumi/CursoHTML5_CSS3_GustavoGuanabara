@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com fontes em CSS</title>
+    <style>
+        body{
+            font-family:'Courier New', Courier, monospace ;
+            /*
+            Medidas absoultas 
+            cm, mm, in (polegada), px, pt (ponto), pc (paica)
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            */
+            font-size: 16px;
+            /*
+            LIGHTER, NORMAL, BOLD, BOLDER
+            */
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: underline;
+        }
+        h2 {
+            /*Ordem: font-style > font-weight > font-size > font-family. Se esta ordem não for respeitada, o código não funciona*/
+            font: italic bold 30px Arial, sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga labore consectetur sint! Reiciendis voluptatem, soluta beatae vero voluptatibus ex non suscipit earum? At magni excepturi, incidunt soluta dicta labore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vel, molestias distinctio laboriosam provident voluptatibus error quae quia fuga nihil, perspiciatis ea expedita eos beatae excepturi itaque quidem voluptatum iste.lorem</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error amet ea tempore, obcaecati iure distinctio ut placeat ullam minus in modi atque assumenda deleniti sit possimus doloremque magnam est ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vero beatae nisi ducimus dolorem reprehenderit aliquam, nemo magni vitae ipsum ullam consectetur impedit inventore tempora dolor quas nam iure ex.</p>
+</body>
+</html>
