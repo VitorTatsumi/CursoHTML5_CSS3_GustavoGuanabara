@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+
+        /*
+        158, 100, 77
+        134, 84, 64
+        68, 43, 33
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(134, 84, 64);
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(134, 84, 64);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > h1 {
+            background-color: rgb(158, 100, 77);
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(68, 43, 33);
+            padding: 3px;
+            text-align: center;
+            box-shadow: 5px 5px 5px black;
+        }
+
+        nav > a {
+            background-color: rgb(158, 100, 77);
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px;
+            margin: 5px;
+            box-shadow: 5px 5px 5px black;
+            border-radius: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: dotted;
+            color: rgb(255, 0, 0);
+        }
+
+        main {
+            background-color: rgb(68, 43, 33);
+            padding: 10px;
+            margin: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 30px 0px;
+            box-shadow: 5px 5px 5px black;
+        }
+
+        footer {
+            background-color: rgb(68, 43, 33);
+            padding: 5px;
+            margin: 0px;
+            color: white;
+            text-align: center;
+
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        article {
+            background-color: rgb(68, 43, 33);
+            padding: 5px;
+        }
+
+        article > h2 {
+            background-color: rgb(158, 100, 77);
+            margin: 5px;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(134, 84, 64);
+            color: white;
+            text-align: center;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bárbara Melo Psicóloga</h1>
+        <nav>
+            <a href="#">[Quem sou eu]</a>
+            <a href="#">[Abordagem]</a>
+            <a href="#">[Graduação]</a>
+            <a href="#">[Contato]</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>O luto na pandemia</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corporis accusamus, in nulla maiores, illo incidunt, exercitationem rem aliquam debitis eius. Quod eveniet nisi incidunt iusto quas quo placeat nulla.</p>
+                <aside>
+                    <p>Artigo escrito por Psicóloga Bárbara Melo</p>
+                </aside>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Vitor Tatsumi</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
